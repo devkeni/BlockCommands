@@ -1,0 +1,5 @@
+name: BlockCommands
+description: "A simple plugin to protect your server using player nicknames."
+version: 1.0-SNAPSHOT
+author: devkeni
+main: com.devkeni.blockcommands.BlockCommands

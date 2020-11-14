@@ -1,0 +1,11 @@
+config:
+  blocked-commands:
+    - "/gamemode"
+    - "/give"
+    - "/op"
+
+  bypassed-players:
+    - "Steve"
+    - "Notch"
+
+  permission-message: "§cYou don't have permission to do this."
