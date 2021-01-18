@@ -17,13 +17,11 @@ public class EventBlockCommand implements Listener {
         Player player = event.getPlayer();
         List<String> bypassedPlayers = Utils.getBypassedPlayers();
 
-        for (String bypassedPlayer : bypassedPlayers) {
-            if (bypassedPlayer.equalsIgnoreCase(player.getName())) return;
-        }
+        if (bypassedPlayers.contains(player.getName)) return;
 
         String command = event.getMessage();
         List<String> blockedCommands = Utils.getBlockedCommands();
-
+        
         for (String blockedCommand : blockedCommands) {
             if (command.toLowerCase().startsWith(blockedCommand.toLowerCase())) {
                 event.setCancelled(true);
