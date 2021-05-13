@@ -1,0 +1,5 @@
+name: BlockCommands
+description: "Protect your server using player nicknames."
+version: 1.0.0
+author: DevKeni
+main: com.devkeni.blockcommands.BlockCommands

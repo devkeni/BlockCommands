@@ -1,0 +1,11 @@
+#########################################################
+##                Plugin BlockCommands                 ##
+##                   Version 1.0.0                     ##
+## Download: https://github.com/devkeni/BlockCommands/ ##
+#########################################################
+
+permission-message: "&cYou don't have permission to do that."
+bypassed-players: [Steve, Notch]
+blocked-commands:
+  - '/op'
+  - '/gamemode'
